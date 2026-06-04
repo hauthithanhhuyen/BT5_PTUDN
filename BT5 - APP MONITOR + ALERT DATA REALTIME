@@ -1,1 +1,17 @@
+Công nghệ:
+- Node-RED
+- MariaDB
+- InfluxDB
+- Grafana
+- Flask API
+- Nginx
+- Telegram Bot
+- Docker Compose
 
+Chức năng:
+- Thu thập dữ liệu thời tiết realtime
+- Lưu dữ liệu tức thời vào MariaDB
+- Lưu lịch sử vào InfluxDB
+- Hiển thị realtime trên Web
+- Hiển thị biểu đồ Grafana
+- Gửi cảnh báo Telegram khi vượt ngưỡng
