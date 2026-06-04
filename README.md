@@ -1,6 +1,12 @@
+
+# HẦU THỊ THANH HUYỀN
+
+# K225480106027
+
 # BT5_PTUDN
-BT5_HTTH
+
 # PHẦN 1: LÝ THUYẾT DOCKER
+
 1. Docker là gì?
 Docker là một nền tảng mã nguồn mở cho phép các nhà phát triển tự động hóa việc triển khai, mở rộng và quản lý các ứng dụng bên trong các môi trường cô lập được gọi là Container. Thay vì ảo hóa toàn bộ hệ điều hành như máy ảo (Virtual Machine), Docker chia sẻ chung nhân (kernel) của hệ điều hành máy chủ nhưng vẫn đảm bảo các ứng dụng chạy độc lập với đầy đủ thư viện và cấu hình riêng của nó.
 # Các keyword trong docker-compose.yml
@@ -74,6 +80,43 @@ Sử dụng node http request trong Node-RED để gọi API lấy dữ liệu t
 Kết quả kiểm thử luồng thu thập dữ liệu thời tiết thời gian thực. Thông qua node http request, hệ thống gọi API và nhận về gói dữ liệu định dạng JSON (như hiển thị ở cửa sổ Debug).
 
 <img width="1918" height="774" alt="image" src="https://github.com/user-attachments/assets/388c882f-c0ed-4638-ad29-2db4d38f0709" />
+
+# hoàn thành phần Telegram Alert của BT5.
+
+<img width="1251" height="585" alt="image" src="https://github.com/user-attachments/assets/d9f07f84-990c-4542-8db1-079039fae661" />
+
+<img width="1672" height="715" alt="image" src="https://github.com/user-attachments/assets/7e019301-7e84-4d65-ab81-9fd5d4d8e682" />
+
+# Cấu hình GRAFANA DASHBOARD
+ Thêm Data Source InfluxDB
+ <img width="1867" height="839" alt="image" src="https://github.com/user-attachments/assets/83c0179d-5b5f-4254-bd1c-4ee989ff5d21" />
+ 
+ <img width="1802" height="980" alt="image" src="https://github.com/user-attachments/assets/dc93df1b-0115-4b74-85dc-db8125a0499a" />
+# kiểm tra xem dữ liệu đã vào InfluxDB chưa
+Thêm truy vấn
+
+<img width="1358" height="492" alt="image" src="https://github.com/user-attachments/assets/03168efb-63e1-42ae-9327-414cad037d95" />
+
+Biểu đồ
+<img width="1499" height="813" alt="image" src="https://github.com/user-attachments/assets/7bb9aa16-5575-4645-ae01-e902be5a87db" />
+
+# Trang Web chạy tại http://localhost:8090
+
+<img width="1678" height="927" alt="image" src="https://github.com/user-attachments/assets/00db03ea-9bba-4c2e-a93b-78bb2561c2bd" />
+# xuất tất cả các container ra file nén.
+
+  #  xoá mọi container đang chạy
+  <img width="1769" height="478" alt="image" src="https://github.com/user-attachments/assets/f6805a8a-3578-45eb-9e21-865374ff2e51" />
+
+# load lại các container  từ file nén để khôi phục các container đã xoá
+
+<img width="1844" height="422" alt="image" src="https://github.com/user-attachments/assets/74ba0e36-051f-41ec-b3c1-b45fdea65cc9" />
+
+<img width="1673" height="186" alt="image" src="https://github.com/user-attachments/assets/139f8944-4604-43ae-a355-98e28bdeddfc" />
+
+
+
+
 
 
 
